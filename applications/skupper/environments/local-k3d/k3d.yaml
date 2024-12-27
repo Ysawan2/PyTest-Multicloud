@@ -1,0 +1,10 @@
+---
+Frontend:
+- name: frontend
+  replicas: 1
+  cluster: cluster1
+Backend:
+- name: backend
+  replicas: 2
+  cluster: cluster2
+  
