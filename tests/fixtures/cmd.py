@@ -1,7 +1,7 @@
-from lib.cmd import run
+from lib import cmd
 
 import pytest
 
 @pytest.fixture
 def cmd_run():
-    return run
+    return cmd.CmdRunner()
